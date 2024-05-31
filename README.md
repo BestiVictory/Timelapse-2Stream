@@ -3,6 +3,7 @@ Regarding how to train the dual-stream model for video aesthetics and the dual-s
 ## environment
 To execute the UE4-Carla related code (open UE4 and run Step1_offine-v2.py\Step2_showone.py), please install the Conda environment environment_carla.yml. 
 To execute the code related to the 2-stream model training (train.py\test.py), please install the Conda environment environment_2stream.yml.
+The installation process of the UE4-Carla engine is detailed in TLP System.md.
 ## train
 Place the data and data_old folders in the root directory, then execute train.py or train_old.py. The former trains with the Video Aesthetic Dataset, while the latter trains with the Time-Lapse Aesthetic Dataset.
 ## test
